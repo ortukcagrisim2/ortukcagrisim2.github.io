@@ -41,7 +41,13 @@ define(['managerAPI',
         ]), 
         negWords : API.shuffle([
             'Yemek yapan kadın', 'Çalışan erkek', 'Çocuklarla ilgilenen kadın', 'Öfkeli erkek', 'Ev temizleyen kadın', 'Ütü yapan erkek'
-        ])
+        ]),
+	ailemWords : API.shuffle([
+	    'Annem', 'Babam', 'Kardeşlerim', 'Ailem', 'Hane halkı', 'Ben'
+	]),
+	digerleriWords : API.shuffle([
+	    'Başkası', 'Diğerleri', 'Yabancılar', 'Uzaktakiler', 'Elalem', 'Ötekiler'
+	]),
     });
 
     API.addTasksSet({

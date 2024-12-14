@@ -37,10 +37,11 @@ define(['managerAPI',
         //Select randomly what attribute words to see. 
         //Based on Axt, Feng, & Bar-Anan (2021).
         posWords : API.shuffle([
-            'Yemek yapan erkek', 'Mühendis kadın', 'Çocuk uyutan baba', 'Ev temizleyen erkek', 'Öfkeli kadın', 'Ütü yapan kadın'
+            'Yemek yapan kadın', 'Çalışan erkek', 'Çocuklarla ilgilenen kadın', 'Öfkeli erkek', 'Ev temizleyen kadın', 'Ütü yapan erkek'
         ]), 
         negWords : API.shuffle([
-            'Yemek yapan kadın', 'Çalışan erkek', 'Çocuklarla ilgilenen kadın', 'Öfkeli erkek', 'Ev temizleyen kadın', 'Ütü yapan erkek'
+            'Yemek yapan erkek', 'Mühendis kadın', 'Çocuk uyutan baba', 'Ev temizleyen erkek', 'Öfkeli kadın', 'Ütü yapan kadın'
+
         ]),
 	ailemWords : API.shuffle([
 	    'Annem', 'Babam', 'Kardeşlerim', 'Ailem', 'Hane halkı', 'Ben'

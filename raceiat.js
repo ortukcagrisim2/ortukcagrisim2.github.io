@@ -11,12 +11,12 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
                 height : 4 //Used to position the "Or" in the combined block.
             }, 
             stimulusMedia : [ //Stimuli content as PIP's media objects
-                {word:'Annem'},
-                {word:'Babam'},
-                {word:'Kardeşlerim'},
-                {word:'Ailem'},
-                {word:'Hane halkı'},                 
-                {word:'Ben'}     
+                {word:'Başkası'},
+                {word:'Diğerleri'},
+                {word:'Yabancılar'},
+                {word:'Uzaktakiler'},
+                {word:'Elalem'},
+                {word:'Ötekiler'}    
             ],
             //Stimulus css (style)
             stimulusCss : {color:'#31940F','font-size':'2.3em'}
@@ -29,12 +29,12 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
                 height : 4 //Used to position the "Or" in the combined block.
             }, 
             stimulusMedia : [ //Stimuli content as PIP's media objects
-                {word:'Başkası'},
-                {word:'Diğerleri'},
-                {word:'Yabancılar'},
-                {word:'Uzaktakiler'},
-                {word:'Elalem'},
-                {word:'Ötekiler'}
+                {word:'Annem'},
+                {word:'Babam'},
+                {word:'Kardeşlerim'},
+                {word:'Ailem'},
+                {word:'Hane halkı'},                 
+                {word:'Ben'} 
             ],
             //Stimulus css (style)
             stimulusCss : {color:'#31940F','font-size':'2.3em'}

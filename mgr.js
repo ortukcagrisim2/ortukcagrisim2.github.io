@@ -20,11 +20,11 @@ define(['managerAPI',
     let whiteLabels = [];
 
     if (raceSet == 'a') {
-        blackLabels.push('Diğerleri');
-        whiteLabels.push('Ailem');
+        blackLabels.push('Ailem');
+        whiteLabels.push('Diğerleri');
     } else {
-        blackLabels.push('Diğerleri');
-        whiteLabels.push('Ailem');
+        blackLabels.push('Ailem');
+        whiteLabels.push('Diğerleri');
     }
 
     API.addGlobal({
@@ -36,10 +36,10 @@ define(['managerAPI',
         whiteLabels:whiteLabels,
         //Select randomly what attribute words to see. 
         //Based on Axt, Feng, & Bar-Anan (2021).
-        posWords : API.shuffle([
+        negWords : API.shuffle([
             'Yemek yapan kadın', 'Çalışan erkek', 'Çocuklarla ilgilenen kadın', 'Öfkeli erkek', 'Ev temizleyen kadın', 'Ütü yapan erkek'
         ]), 
-        negWords : API.shuffle([
+        posWords : API.shuffle([
             'Yemek yapan erkek', 'Mühendis kadın', 'Çocuk uyutan baba', 'Ev temizleyen erkek', 'Öfkeli kadın', 'Ütü yapan kadın'
 
         ]),

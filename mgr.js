@@ -52,8 +52,6 @@ define(['managerAPI',
     		{image: 'img/deuygun_5.jpg'}, 
     		{image: 'img/deuygun_6.jpg'}
 	]),
-
-        ]),
 	ailemWords : API.shuffle([
 	    'Annem', 'Babam', 'Kardeşlerim', 'Ailem', 'Hane halkı', 'Ben'
 	]),

@@ -36,11 +36,23 @@ define(['managerAPI',
         whiteLabels:whiteLabels,
         //Select randomly what attribute words to see. 
         //Based on Axt, Feng, & Bar-Anan (2021).
-        negWords : API.shuffle([
-            'Yemek yapan kadın', 'Çalışan erkek', 'Çocuklarla ilgilenen kadın', 'Öfkeli erkek', 'Ev temizleyen kadın', 'Ütü yapan erkek'
-        ]), 
-        posWords : API.shuffle([
-            'Yemek yapan erkek', 'Mühendis kadın', 'Çocuk uyutan baba', 'Ev temizleyen erkek', 'Öfkeli kadın', 'Ütü yapan kadın'
+       	posWords : API.shuffle([
+    		{image: 'img/uygun_1.jpg'}, 
+    		{image: 'img/uygun_2.jpg'}, 
+    		{image: 'img/uygun_3.jpg'}, 
+    		{image: 'img/uygun_4.jpg'}, 
+    		{image: 'img/uygun_5.jpg'}, 
+    		{image: 'img/uygun_6.jpg'}
+	]), 
+	negWords : API.shuffle([
+    		{image: 'img/deuygun_1.jpg'}, 
+    		{image: 'img/deuygun_2.jpg'}, 
+    		{image: 'img/deuygun_3.jpg'}, 
+    		{image: 'img/deuygun_4.jpg'}, 
+    		{image: 'img/deuygun_5.jpg'}, 
+    		{image: 'img/deuygun_6.jpg'}
+	])
+	]),
 
         ]),
 	ailemWords : API.shuffle([

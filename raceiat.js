@@ -202,8 +202,7 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
 		{image: uygun_3.jpeg},
 		{image: uygun_4.jpeg},
 		{image: uygun_5.jpeg},
-		{image: uygun_6.jpeg}
-                 
+		{image: uygun_6.jpeg}     
             ],
             //Stimulus css
             stimulusCss : {color:'#0000FF','font-size':'2.3em'}

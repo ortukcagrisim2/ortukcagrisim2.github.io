@@ -51,7 +51,6 @@ define(['managerAPI',
     		{image: 'img/deuygun_4.jpg'}, 
     		{image: 'img/deuygun_5.jpg'}, 
     		{image: 'img/deuygun_6.jpg'}
-	])
 	]),
 
         ]),

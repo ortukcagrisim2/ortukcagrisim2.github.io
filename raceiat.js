@@ -161,7 +161,7 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
                 height : 4 //Used to position the "Or" in the combined block.
             }, 
             stimulusMedia : [ //Stimuli content as PIP's media objects
-                 {word:'Başkası'},
+                {word:'Başkası'},
                 {word:'Diğerleri'},
                 {word:'Yabancılar'},
                 {word:'Uzaktakiler'},

@@ -192,6 +192,25 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
         attribute1 : {
             name : 'Role Uygun Değil',
             title : {
+                media : {word : 'Role Uygun'},
+                css : {color:'#0000FF','font-size':'1.8em'},
+                height : 4 //Used to position the "Or" in the combined block.
+            },
+            stimulusMedia : [ //Stimuli content as PIP's media objects
+                {image:deuygun_1.jpeg},
+		{image:deuygun_2.jpeg},
+		{image:deuygun_3.jpeg},
+		{image:deuygun_4.jpeg},
+		{image:deuygun_5.jpeg},
+		{image:deuygun_6.jpeg}
+                
+            ],
+            //Stimulus css
+            stimulusCss : {color:'#0000FF','font-size':'2.3em'}
+        },
+        attribute2 : {
+            name : 'Role Uygun',
+            title : {
                 media : {word : 'Role Uygun Değil'},
                 css : {color:'#0000FF','font-size':'1.8em'},
                 height : 4 //Used to position the "Or" in the combined block.
@@ -203,25 +222,6 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
 		{image:uygun_4.jpeg},
 		{image:uygun_5.jpeg},
 		{image:uygun_6.jpeg}
-                
-            ],
-            //Stimulus css
-            stimulusCss : {color:'#0000FF','font-size':'2.3em'}
-        },
-        attribute2 : {
-            name : 'Role Uygun',
-            title : {
-                media : {word : 'Role Uygun'},
-                css : {color:'#0000FF','font-size':'1.8em'},
-                height : 4 //Used to position the "Or" in the combined block.
-            },
-            stimulusMedia : [ //Stimuli content as PIP's media objects
-                {word: global.posWords[0]},
-                {word: global.posWords[1]},
-                {word: global.posWords[2]},
-                {word: global.posWords[3]},
-                {word: global.posWords[4]},
-                {word: global.posWords[5]}
             ],
             //Stimulus css
             stimulusCss : {color:'#0000FF','font-size':'2.3em'}
